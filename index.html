@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller!</title>
+    <!-- <link rel="icon" type="image/x-icon" href="star_symbol.png"> -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body onload="rollDice()">
+    <h1 style="border-bottom: 1px solid black;">DICE ROLLER!</h1>
+        <p style="font-style: italic;"> <strong>This is a dice roller that can be used when playing Yahtzee!</strong><br><br> How it works: Each number below represents one of the five 6-sides dice. Press "Roll Dice!" to roll all of the dice. </p>
+
+     <div class="dice-container">
+            <div class="dice" id="dice1">DICE 1</div><br>
+            <div class="dice" id="dice2">DICE 2</div><br>
+            <div class="dice" id="dice3">DICE 3</div><br>
+            <div class="dice" id="dice4">DICE 4</div><br>
+            <div class="dice" id="dice5">DICE 5</div>
+     </div>
+     <button id="rollBtn" autofocus onclick="rollDice()"; class="roll-button">Roll Dice!</button>
+
+
+<script src="script.js"> </script>
+</body>
+</html>
